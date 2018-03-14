@@ -2,7 +2,7 @@
 
 == Description ==
 
-A custom child theme for Twenty Seventeen for SeLCont Up2U WordPress Multisite.
+A custom child theme for Twenty Seventeen for SeLCont Up2U WordPress Multisite. The parent theme must be Twenty Seventeen!
 
 For more information about Twenty Seventeen please go to https://codex.wordpress.org/Twenty_Seventeen.
 
