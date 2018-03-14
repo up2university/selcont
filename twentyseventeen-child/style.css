@@ -17,3 +17,121 @@ Text Domain: twenty-seventeen-child
 .archive.page-one-column:not(.has-sidebar) .page-header {
     margin-bottom: 1em;
 }
+
+/* Custom Footer */
+
+#colophon {
+background: #ff9800;
+}
+
+#colophon * {
+color: white !important;
+list-style: none !important;
+border: none !important;
+box-shadow: none !important;
+}
+
+
+/* Site Title */
+
+.site-title, .site-title a {
+font-size: 1.8em !important;
+}
+
+/* Site Description */
+
+body.has-header-image .site-description, body.has-header-video .site-description {
+font-size: 1.15em;
+}
+
+/* Entry header */
+
+.page .entry-header .entry-title {
+font-size: 1.2em !important;
+}
+
+/* Header Icon Size */
+
+.has-header-image.twentyseventeen-front-page .custom-header, .has-header-video.twentyseventeen-front-page .custom-header, .has-header-image.home.blog .custom-header, .has-header-video.home.blog .custom-header{
+height: 75vh !important;
+}
+
+/* Reduce gap above the content section */
+
+#content {
+padding-top: 2em;
+}
+
+/* Increase Content section width */
+
+.wrap {
+max-width: 1280px;
+padding-left: 3em;
+padding-right: 3em;
+}
+
+/* Post date and post author removal */
+
+.entry-meta {
+display: none !important;
+}
+
+/* Custom single post page title */
+
+.single-post .entry-title, .page .entry-title {
+font-size: 1em !important;
+color: #ff9800 !important;
+}
+
+/* Hide comments */
+
+#comments {
+display: none !important;
+}
+
+/* Custom widget changes */
+
+.widget-title {
+font-size: 1em !important;
+color: #fff  !important;
+text-align: center;
+background: #ff9800;
+padding: 5% !important;
+margin-bottom: 0px !important;
+}
+
+.widget li a {
+color: #ff9800 !important;
+font-size: 1.1em !important;
+}
+
+/* Submit buttons background color */
+
+button, input[type=”button”], input[type=”submit”] {
+background-color: #ff9800 !important;
+}
+
+/* Main Navigation custom css */
+
+	.main-navigation li li:hover,
+	.main-navigation li li.focus {
+		background: #ff9800;
+	}
+
+/* Login and Logout URL css */
+
+.loginout{
+	width: 15em;
+	height: 4em;
+	text-align: center;
+	margin: auto;
+
+}
+
+.loginout a:link, a:visited {
+	background-color: #ff9800;
+	padding: 1.5em 1.5em;
+	font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+}
