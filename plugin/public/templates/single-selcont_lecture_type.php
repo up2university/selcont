@@ -120,7 +120,7 @@ $attachmentsArray = get_post_meta( get_the_ID(), 'attachmentsSlides', true );
                         <?php } ?>
 
                         <?php if ($presentation_file) { ?>
-                            <p><a target="_blank" href="<?php echo $presentation_file; ?>">Διαφάνειες</a></p>
+                            <p><a target="_blank" href="<?php echo $presentation_file; ?>">Presentation File</a></p>
                         <?php } ?>
                     </div>
                 </div>
