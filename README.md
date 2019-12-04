@@ -34,7 +34,7 @@ Installation
 
 SeLCont is implemented as a WordPress Plugin. This plugin is compatible with both single and multisite instances of WordPress. Admininstators are encouraged to setup a WordPress Network (multisite) if they want to integrate SeLCont with a LMS via LTI. Further instructions for setting up a WordPress multisite instance can be found <a href="https://wordpress.org/support/article/create-a-network/" target="_blank">here</a>. Another option is to use a docker image of a WordPress multisite instance. More instructions regarding the deployment of the docker container can be found <a href="https://hub.docker.com/_/wordpress/" target="_blank">here</a>.
 
-<u>Plugin Requirements</u>
+<b>Plugin Requirements</b>
 <ul>
 <li> WordPress version 5.x (It is tested up to 5.3 version) </li>
 <li> PHP 7.3 is required </li>
@@ -42,7 +42,7 @@ SeLCont is implemented as a WordPress Plugin. This plugin is compatible with bot
 
 SeLCont WordPress Plugin can be found <a href="https://github.com/up2university/selcont/blob/master/selcont.zip" target="_blank">here</a>
 
-<u>Plugin Installation</u>
+<b>Plugin Installation</b>
 
 The procedure is quite simple. First, you need to download the plugin from the source (which will be a zip file). Next, you need to go to WordPress admin area and visit Plugins » Add New, page.
 
@@ -60,7 +60,7 @@ WordPress will now upload the plugin file from your computer and install it for 
 
 Once installed, you need to click on the Activate Plugin link to start using the plugin.
 
-<u>Integration with a LMS</u>
+<b>Integration with a LMS</b>
 
 The integration between SeLCont and an LMS is based in Learning Tools Interoperability (LTI) standard, developed by the IMS Global Learning Consortium. A WordPress Multisite is required for the integration. 
 
